@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+  nav img {
+    display: none;
+  }
+  .navigation {
+    display: block;
+  }
+  .job-info i {
+    padding-right: 0;
+  }
+  .hobby-detail {
+    margin-right: 10%;
+  }
+  .project table {
+    margin-bottom: 70px;
+  }
+  .certificate-web,
+  .certificate-javascript,
+  .certificate-database {
+    border: none;
+    max-width: 350px;
+  }
+  .certificate-web,
+  .certificate-javascript {
+    border-bottom: 2px solid #d6c08d;
+  }
+  .project-time {
+    margin-left: -24px;
+  }
+  .time {
+    margin-left: 24px;
+  }
+  .contact {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}

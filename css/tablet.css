@@ -1,0 +1,21 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  nav img{
+    display: none;
+  }
+  .navigation {
+    /* display: flex; */
+    justify-content:space-between;
+    margin left: 5%;
+    padding: 10px;
+  }
+  .job-info i {
+    padding-right: 0;
+  }
+  .project-funix {
+    display: inline-block;
+  }
+  .project-developer {
+    float: right;
+    margin-right: 26px;
+  }
+}

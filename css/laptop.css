@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  color: #868e96;
+}
+body i {
+  color: #229be6;
+}
+body li {
+  list-style-type: none;
+  margin-left: -32px;
+}
+h2 {
+  color: #000;
+  font-size: 32px;
+  margin-bottom: 48px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  letter-spacing: -2.5px;
+}
+/* HEADER */
+header {
+  position: relative;
+}
+.banner {
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  right: 0%;
+}
+.banner-job {
+  color: #adb5bd;
+}
+header img {
+  filter: brightness(50%);
+}
+.container {
+  margin: auto;
+}
+
+/* nav-bar */
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+nav img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  scale: 2;
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 500;
+}
+
+/* INFOMATION */
+.target {
+  line-height: 1.7;
+}
+.info {
+  list-style-type: none;
+  margin-left: -30px;
+  letter-spacing: -1px;
+}
+.info-icon i {
+  margin: 0px;
+}
+.info span {
+  color: #000;
+  font-weight: 500;
+}
+
+/* JOB-INFO */
+.job-info {
+  line-height: 1.5;
+}
+.job-info i {
+  font-size: 48px;
+  color: #868e96;
+}
+.job-info strong {
+  color: #495057;
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.job-info strong::before {
+  content: "";
+  border-radius: 50%;
+  background-color: #229be6;
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  height: 8px;
+  width: 8px;
+}
+.job-info .title {
+  margin-top: 75px;
+}
+/* EXPERIENCE */
+.copany-y-time::after {
+  content: "Hiện tại";
+  color: #fff;
+  background-color: #229be6;
+  padding: 0 5px;
+  border-radius: 4px;
+}
+
+/* HOBBY */
+.hobby-detail {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50px auto;
+  text-align: center;
+}
+.hobby span i {
+  color: #229be6;
+  font-size: 14px;
+  width: 48px;
+  height: 48px;
+  padding: 13px;
+  border: 2px solid #229be6;
+  border-radius: 50%;
+  align-content: center;
+}
+.hobby p {
+  text-align: center;
+}
+
+/* LANGUAGE */
+.language-detail {
+  display: grid;
+  grid-template-columns: 60px 60px 1fr 1fr;
+  grid-template-rows: repeat(4, 32px);
+}
+.language p {
+  grid-column: 1/5;
+  color: #495057;
+}
+.language span {
+  width: 50px;
+  height: 4px;
+  background-color: #229be6;
+}
+
+/* SKILL */
+.skill-detail {
+  display: grid;
+  grid-template-columns: 60px 60px 1fr 1fr;
+  grid-template-rows: repeat(8, 32px);
+}
+.skill p {
+  grid-column: 1/5;
+  color: #495057;
+}
+.skill span {
+  width: 50px;
+  height: 4px;
+  background-color: #229be6;
+}
+
+/* CERTIFICATE */
+.certificate img {
+  width: 200px;
+  height: auto;
+}
+.certificate h6 {
+  color: #000;
+  font-weight: 500;
+}
+.certificate-content {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.certificate-web {
+  border-right: 2px solid #d6c08d;
+}
+.certificate-database {
+  padding-top: 20px;
+  border-top: 2px solid #d6c08d;
+}
+.certificate-title {
+  margin-top: 48px;
+}
+
+/* PROJECT */
+.project h2 {
+  margin-top: 64px;
+}
+.project .col {
+  margin-top: 40px;
+}
+.project img {
+  width: 100%;
+}
+.project p {
+  font-size: 20px;
+  color: #495057;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin: 16px 0;
+}
+.project i {
+  margin-left: 24px;
+  color: #495057;
+}
+.time {
+  color: #fff;
+  background-color: #229be6;
+  padding: 0 8px;
+  border-radius: 24px;
+}
+table {
+  line-height: 1.9;
+  border-collapse: collapse;
+  text-align: left;
+}
+td,
+th {
+  border-top: 1px solid #adb5bd;
+  vertical-align: top;
+}
+thead {
+  height: 60%;
+}
+th {
+  font-weight: normal;
+  width: 30%;
+}
+
+/* CONTACT */
+.contact {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: #868e96;
+}
+footer i {
+  font-size: 150%;
+  color: #229be6;
+  margin-left: 10%;
+}
